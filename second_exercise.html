@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Registration Form</h1>
+
+      <label for="first-name">FirstName:</label>
+      <input id="first-name" type="text" placeholder="Emilian" />
+      <br />
+      <br />
+      <label for="last-name">LastName:</label>
+      <input id="last-name" type="text" placeholder="Chirica" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="valentyneemilian@yahoo.com"
+        required
+      />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="*******" required />
+
+      <br /><br />
+
+      <h2>Jobs:</h2>
+      <label for="jobs"></label>
+      <select name="jobs" id="jobs">
+        <option value="intership">Intership</option>
+        <option value="junior">Junior Web Developer</option>
+        <option value="intermediate">Intermediate Web Developer</option>
+        <option value="senior">Senior Web Developer</option>
+      </select>
+      <br /><br />
+      <label for="male"></label>
+        <input name="gender" id="male" type="radio" value="male" />Male</label
+      >
+      <br />
+      <label for="female">
+        <input
+          name="gender"
+          id="female"
+          type="radio"
+          value="female"
+        />Female</label
+      >
+      <br />
+      <label for="other">
+        <input
+          name="gender"
+          id="other"
+          type="radio"
+          value="other"
+        />Other</label
+      >
+      <h2>Hobbies:</h2>
+      <label for="football"><input id="football" value="football" name="hobbies" type="checkbox">Football</label><br>
+      <label for="swimming"><input id="swimming" value="swimming" name="hobbies" type="checkbox">Swimming</label><br>
+      <label for="programming"><input type="checkbox" name="hobbies" id="programming" value="programming">Programming</label><br>
+      <label for="other1"><input type="checkbox" id="other1" name="hobbies" value="other">Other</label>
+      <br><br>
+      <label for="phone">Phone: <input type="tel" id="phone" placeholder="+43 066 08716362" required></label>
+      <br><br>
+      <label for="describe">Describe yoursel:</label><br>
+      <textarea name="describe" id="describe" rows="6" cols="50">Personality, Ups & downs, daily routine, etc.</textarea>
+      <br>
+      <button type="submit" value="submit">Submit</button>
+      <button type="reset" value="reset">Reset</button>
+    </form>
+  </body>
+</html>
